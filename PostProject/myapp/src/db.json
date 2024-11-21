@@ -1,0 +1,115 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Suroshe Rupali",
+      "email": "rupalisuroshe11@gmail.com",
+      "username": "RupaliS",
+      "password": "rupali@1"
+    },
+    {
+      "id": "2",
+      "name": "Salunke Snehal",
+      "email": "abc1562001@gmail.com",
+      "username": "SalunkeS",
+      "password": "snehal@1"
+    },
+    {
+      "id": "3",
+      "name": "Radhika Sathe",
+      "email": "radhika@gmail.com",
+      "username": "RadhikaS",
+      "password": "radhika@12"
+    },
+    {
+      "id": "4",
+      "name": "rupalisuroshe",
+      "email": "rupalisuroshe1562001@gmail.com",
+      "username": "rupali@123",
+      "password": "rupali@1"
+    },
+    {
+      "id": "5",
+      "name": "AbhijitMisal",
+      "email": "abhijitmisal@gmail.com",
+      "username": "Abhijit@1",
+      "password": "Abhijit@"
+    }
+  ],
+  "posts": [
+    {
+      "id": "uN7ZoHrFdExP_MCU7R_pN",
+      "username": "RupaliS",
+      "description": "Look deep into nature, and then you will understand everything better.😇",
+      "totalLike": 1,
+      "users": [
+        {
+          "id": "4",
+          "username": "rupali@123"
+        }
+      ],
+      "comments": []
+    },
+    {
+      "id": "T83G7CkCNN7qMOC-dfY7U",
+      "username": "RupaliS",
+      "description": "The earth has music for those who listen.😊",
+      "totalLike": 2,
+      "users": [
+        {
+          "id": "1",
+          "username": "RupaliS"
+        },
+        {
+          "id": "4",
+          "username": "rupali@123"
+        }
+      ],
+      "comments": []
+    },
+    {
+      "id": "vWFAks9ONNdZ5W1Ynr9Kh",
+      "username": "RupaliS",
+      "description": "In nature, nothing is perfect and everything is perfect. Trees can be contorted, bent in weird ways, and they’re still beautiful.😍",
+      "totalLike": 1,
+      "users": [
+        {
+          "id": "4",
+          "username": "rupali@123"
+        }
+      ],
+      "comments": [
+        {
+          "userName": "RupaliS",
+          "text": "Wow😍"
+        }
+      ]
+    },
+    {
+      "id": "aSyr7icwT4Z0VJwre-1gP",
+      "username": "rupali@123",
+      "description": "Nature is so beautiful",
+      "totalLike": 1,
+      "users": [
+        {
+          "id": "4",
+          "username": "rupali@123"
+        }
+      ],
+      "comments": []
+    },
+    {
+      "id": "Fpe0ufa2yOiyA-Ms42FSF",
+      "username": "Abhijit@1",
+      "description": "Happiness is the most important in our life.",
+      "totalLike": 1,
+      "users": [
+        {
+          "id": "5",
+          "username": "Abhijit@1"
+        }
+      ],
+      "comments": []
+    }
+  ]
+}
