@@ -1,0 +1,33 @@
+/* Ensure the container takes full viewport height and centers content */
+.container {
+  
+   /* Center horizontally */
+  align-items: center; /* Center vertically */
+   /* Light background color */
+}
+
+.card-deck {
+  display: flex;
+  gap: 1rem; /* Space between cards */
+  flex-wrap: wrap; /* Allow wrapping of cards on smaller screens */
+  justify-content: center; /* Center cards horizontally within the deck */
+}
+
+.card {
+  justify-content: center;
+  width:20%; /* Width of each card */
+  height:100%; /* Adjust height automatically */
+  border: 2px solid #36add881; /* Border color */
+  border-radius: 0.35rem; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
+  transition: box-shadow 0.5s ease-in-out; /* Smooth shadow transition */
+}
+
+.card:hover {
+  box-shadow: 0 9px 17px rgba(38, 47, 213, 0.3); /* Enhanced shadow on hover */
+}
+
+.card-img-top {
+  width: 100%; /* Image covers the width of the card */
+  height: auto; /* Maintain aspect ratio */
+}
